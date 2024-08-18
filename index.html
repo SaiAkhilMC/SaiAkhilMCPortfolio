@@ -3,60 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sai Akhil M C - Data Analyst Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Sai Akhil M C | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Sai Akhil M C - Data Analyst</h1>
+        <nav>
+            <div class="container">
+                <h1 class="logo">SAI AKHIL M C</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="container">
-        <section id="about">
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container home-content">
+            <div class="text">
+                <h2>Hello!</h2>
+                <h1>I'm <span>Sai Akhil M C</span></h1>
+                <h3>Data Analyst & Machine Learning Enthusiast</h3>
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#projects" class="btn">My Work</a>
+            </div>
+            <div class="image">
+                <img src="images/your-photo.jpg" alt="Sai Akhil M C">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
             <h2>About Me</h2>
-            <img src="profile.jpg" alt="Sai Akhil M C" class="profile-image">
-            <p>Enthusiastic and data-driven data analyst with over 2 years of experience in data analytics and automation. Equipped with a solid foundation in data pipelining and extraction using SQL, I have a strong passion for uncovering valuable insights from complex datasets. Skilled in data visualization, predictive analytics, data mining, ETL processes, business intelligence, and statistical analysis. I am determined to utilize my technical expertise, analytical mindset, and meticulous attention to detail to excel in a Data Analyst role within an innovative and progressive organization.</p>
-            <ul>
-                <li><strong>Name:</strong> Sai Akhil M C</li>
-                <li><strong>Location:</strong> San Francisco, CA, USA</li>
-                <li><strong>Email:</strong> saiakhilmc2@gmail.com</li>
-                <li><strong>Phone:</strong> +91 9740180677</li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sai-akhil-mc">linkedin.com/in/sai-akhil-mc</a></li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/SaiAkhilMC">github.com/SaiAkhilMC</a></li>
-            </ul>
-            <a href="Sai_akhil_mc_data_analyst_resume.pdf" class="download-resume">Download Resume</a>
-        </section>
+            <p>Enthusiastic and data-driven data analyst with over 2 years of experience in data analytics and automation...</p>
+            <div class="info">
+                <p><strong>Name:</strong> Sai Akhil M C</p>
+                <p><strong>Email:</strong> saiakhilmc2@gmail.com</p>
+                <p><strong>Phone:</strong> +91 9740180677</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sai-akhil-mc">Sai Akhil M C</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/SaiAkhilMC">Sai Akhil M C</a></p>
+                <a href="path-to-your-resume.pdf" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
 
-        <section id="skills">
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
             <h2>My Skills</h2>
-            <ul>
-                <li>Python</li>
-                <li>SQL</li>
-                <li>Data Visualization</li>
-                <li>Data Mining</li>
-                <li>Predictive Analytics</li>
-                <li>ETL Processes</li>
-                <li>Business Intelligence</li>
-                <li>Statistical Analysis</li>
-                <li>HTML, CSS, JavaScript</li>
-            </ul>
-        </section>
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress python"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>SQL</h3>
+                <div class="progress-bar">
+                    <div class="progress sql"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>React.js</h3>
+                <div class="progress-bar">
+                    <div class="progress react"></div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
 
-        <!-- Add other sections like Experience, Projects, Education, Certifications, Contact -->
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Intelligent Code Review System</h3>
+                <p>Developed an intelligent code review system utilizing NLP and GPT-3.5 Turbo models...</p>
+                <a href="https://github.com/SaiAkhilMC/IntelligentCodeReviewSystem" class="btn">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Image Generation using DCGAN</h3>
+                <p>Implemented a Deep Convolutional Generative Adversarial Network (DCGAN) to generate realistic chest X-ray images...</p>
+                <a href="https://github.com/SaiAkhilMC/DC-GAN" class="btn">View on GitHub</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
 
-    </div>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="your-backend-script" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Sai Akhil M C. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Sai Akhil M C. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>

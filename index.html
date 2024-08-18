@@ -3,78 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sai Akhil M C - Data Analyst</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Sai Akhil M C - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 0.5rem;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 1rem;
+        }
+        h1, h2 {
+            color: #333;
+            font-weight: 600;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .btn:hover {
+            background-color: #3742fa;
+        }
+        .profile-image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .profile-image img {
+            width: 150px;
+            border-radius: 50%;
+            border: 2px solid #1e90ff;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
-
-<header>
+    <header>
+        <h1>Sai Akhil M C - Data Analyst</h1>
+    </header>
     <nav>
-        <ul>
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
     </nav>
-</header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Sai Akhil M C">
+            </div>
+            <p>
+                Enthusiastic and data-driven data analyst with over 2 years of experience in data analytics and automation.
+                Equipped with a solid foundation in data pipelining and extraction using SQL, I have a strong passion for uncovering valuable insights from complex datasets.
+                Skilled in data visualization, predictive analytics, data mining, ETL processes, business intelligence, and statistical analysis. I am determined to utilize my technical expertise, analytical mindset, and meticulous attention to detail to excel in a Data Analyst role within an innovative and progressive organization.
+            </p>
+            <ul>
+                <li><strong>Name:</strong> Sai Akhil M C</li>
+                <li><strong>Location:</strong> San Francisco, CA, USA</li>
+                <li><strong>Email:</strong> <a href="mailto:saiakhilmc2@gmail.com">saiakhilmc2@gmail.com</a></li>
+                <li><strong>Phone:</strong> +91 9740180677</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sai-akhil-mc">linkedin.com/in/sai-akhil-mc</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/SaiAkhilMC">github.com/SaiAkhilMC</a></li>
+            </ul>
+            <a href="Sai_akhil_mc_data_analyst_resume.pdf" class="btn">Download Resume</a>
+        </section>
 
-<div class="container">
-    <section id="about-me" class="about-me">
-        <h1>Hello! I'm Sai Akhil M C</h1>
-        <h2>Data Analyst</h2>
-        <p>Enthusiastic and data-driven data analyst with over 2 years of experience in data analytics and automation. Equipped with a solid foundation in data pipelining and extraction using SQL, I have a strong passion for uncovering valuable insights from complex datasets. Skilled in data visualization, predictive analytics, data mining, ETL processes, business intelligence, and statistical analysis. I am determined to utilize my technical expertise, analytical mindset, and meticulous attention to detail to excel in a Data Analyst role within an innovative and progressive organization.</p>
-        <ul>
-            <li><strong>Name:</strong> Sai Akhil M C</li>
-            <li><strong>Location:</strong> San Francisco, CA, USA</li>
-            <li><strong>Email:</strong> <a href="mailto:saiakhilmc2@gmail.com">saiakhilmc2@gmail.com</a></li>
-            <li><strong>Phone:</strong> +91 9740180677</li>
-        </ul>
-        <button>Download Resume</button>
-    </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Data Visualization</li>
+                <li>Data Mining</li>
+                <li>Predictive Analytics</li>
+                <li>ETL Processes</li>
+                <li>Business Intelligence</li>
+                <li>Statistical Analysis</li>
+                <li>HTML, CSS, JavaScript</li>
+            </ul>
+        </section>
 
-    <section id="skills" class="skills">
-        <h2>My Skills</h2>
-        <p>Python, SQL, Data Visualization, Data Mining, Predictive Analytics, ETL Processes, Business Intelligence, Statistical Analysis, HTML, CSS, JavaScript</p>
-    </section>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <h3>Internship, National Institute of Technology Karnataka, Surathkal (2023)</h3>
+            <ul>
+                <li>Project: Rare Sound Event Localization and Detection</li>
+                <li>Developed a novel algorithm for rare sound event detection achieving a high accuracy rate.</li>
+                <li>Improved the localization module significantly and extracted features using various Spectrograms.</li>
+                <li>Tools and Technologies: Python, Spectrogram Analysis, data mining, statistical analysis.</li>
+                <li><a href="https://github.com/SaiAkhilMC/RareSoundEventLocalizationAndDetection">GitHub Repository</a></li>
+            </ul>
+            <h3>Presenter, CIISCA Conference (2023)</h3>
+            <ul>
+                <li>Project: Heart Failure Analysis and Prediction</li>
+                <li>Presented an in-depth study of heart failure data and introduced a novel predictive model to forecast heart failure occurrences.</li>
+                <li>Shared approaches for data preprocessing and feature selection, enhancing the understanding of heart failure dynamics.</li>
+                <li>Tools and Technologies: Python, Scikit-learn, Pandas, Matplotlib, predictive analytics, data visualization.</li>
+                <li><a href="https://ieeexplore.ieee.org/abstract/document/10403563/">Paper Link</a></li>
+                <li><a href="https://github.com/SaiAkhilMC/HeartFailureUsingMachineLearningAlgorithms">GitHub Repository</a></li>
+            </ul>
+        </section>
 
-    <section id="experience" class="experience">
-        <h2>Professional Experience</h2>
-        <p><strong>Internship, National Institute of Technology Karnataka, Surathkal</strong></p>
-        <p>Analyzed large datasets, developed data pipelines, and generated actionable insights that improved decision-making processes.</p>
-    </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>Intelligent Code Review System</h3>
+            <ul>
+                <li>Developed an intelligent code review system utilizing NLP and GPT-3.5 Turbo models.</li>
+                <li>Created a user interface using web development technologies and integrated it with Flask.</li>
+                <li>The system automates the code review process, providing suggestions and improvements for code quality.</li>
+                <li>Tools and Technologies: Python, NLP, GPT-3.5 Turbo, Flask, HTML, CSS, JavaScript.</li>
+                <li><a href="https://github.com/SaiAkhilMC/IntelligentCodeReviewSystem">GitHub Repository</a></li>
+            </ul>
+            <h3>Image Generation using DCGAN</h3>
+            <ul>
+                <li>Implemented a Deep Convolutional Generative Adversarial Network (DCGAN) to generate realistic chest X-ray images.</li>
+                <li>Trained the model on a dataset of real chest X-rays, enabling the DCGAN to produce synthetic images for potential applications in data augmentation for medical image analysis tasks.</li>
+                <li>Tools and Technologies: Python, TensorFlow, Keras, DCGAN, data visualization.</li>
+                <li><a href="https://github.com/SaiAkhilMC/DC-GAN">GitHub Repository</a></li>
+            </ul>
+            <h3>Customer Segmentation and Recommendation</h3>
+            <ul>
+                <li>Utilized K-means clustering to segment customers, revealing unique profiles, and developed a recommendation system to suggest top-selling products, improving marketing effectiveness.</li>
+                <li>Analyzed UK-based retailer's transactional data to enhance marketing strategies and boost sales.</li>
+                <li>Tools and Technologies: Python, Scikit-learn, Pandas, Matplotlib, Seaborn, ETL processes, business intelligence, statistical analysis.</li>
+                <li><a href="https://github.com/SaiAkhilMC/CustomerSegmentationAndRecommendation">GitHub Repository</a></li>
+            </ul>
+        </section>
 
-    <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <p><strong>Project Title</strong></p>
-        <p>Description of the project and what you accomplished.</p>
-    </section>
+        <section id="education">
+            <h2>Education</h2>
+            <h3>Global Academy of Technology (2020 - 2024)</h3>
+            <ul>
+                <li>Bachelor of Engineering in Artificial Intelligence and Data Science</li>
+                <li>CGPA: 9.10</li>
+            </ul>
+            <h3>Sri Kumaran Composite Pre-university College (2018 - 2020)</h3>
+            <ul>
+                <li>Percentage: 84.5%</li>
+            </ul>
+            <h3>Samved School (2018)</h3>
+            <ul>
+                <li>Percentage: 88.96%</li>
+            </ul>
+        </section>
 
-    <section id="education" class="education">
-        <h2>Education</h2>
-        <p><strong>Institution Name</strong></p>
-        <p>Degree and relevant coursework or achievements.</p>
-    </section>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li><a href="https://coursera.org/verify/2RQDMGRZXMR2">Essential Design Principles for Tableau - UCDAVIS</a></li>
+                <li><a href="https://coursera.org/verify/FE6WKFYB5AKV">Introduction to Data Analytics - IBM, Coursera</a></li>
+                <li><a href="https://coursera.org/verify/6MU2R2PG4FKQ">Fundamentals of Visualization with Tableau - UCDAVIS</a></li>
+                <li><a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS52S1323112604248376">Introduction to Industry 4.0 and Industrial Internet of Things, NPTEL</a></li>
+                <li><a href="https://coursera.org/verify/LRUKQHFUE4BX">SQL for Data Science</a></li>
+            </ul>
+        </section>
 
-    <section id="certifications" class="certifications">
-        <h2>Certifications</h2>
-        <p><strong>Certification Name</strong></p>
-        <p>Details about the certification and the issuing authority.</p>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <p>If you would like to get in touch, feel free to email me at <a href="mailto:saiakhilmc2@gmail.com">saiakhilmc2@gmail.com</a> or call me at +91 9740180677.</p>
-    </section>
-</div>
-
-<footer>
-    <p>© 2024 Sai Akhil M C. All rights reserved.</p>
-</footer>
-
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch, please feel free to reach out via email or connect with me on LinkedIn.</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:saiakhilmc2@gmail.com">saiakhilmc2@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sai-akhil-mc">linkedin.com/in/sai-akhil-mc</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/SaiAkhilMC">github.com/SaiAkhilMC</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sai Akhil M C. All rights reserved.</p>
+    </footer>
 </body>
 </html>

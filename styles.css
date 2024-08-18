@@ -5,211 +5,120 @@ body {
     background-color: #000;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 h1, h2, h3 {
-    margin: 0 0 20px;
     color: #FFCC00;
+    text-align: center;
 }
 
-p {
-    margin: 0 0 20px;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 a {
-    text-decoration: none;
     color: #FFCC00;
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* Header Styles */
-header {
+/* Navigation Styles */
+nav {
     background-color: #111;
-    padding: 20px 0;
+    padding: 10px 0;
+    text-align: center;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.nav-links {
-    list-style: none;
-    padding: 0;
+nav ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
-.nav-links li {
-    margin-left: 20px;
+nav ul li {
+    margin: 0 15px;
 }
 
-.nav-links a {
+nav ul li a {
     color: #fff;
     font-weight: bold;
 }
 
-/* Home Section Styles */
-#home {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/* Header Section Styles */
+header {
     padding: 100px 0;
-    background-color: #000;
+    text-align: center;
 }
 
-.home-content .text {
-    max-width: 50%;
-}
-
-.home-content h2 {
-    font-size: 32px;
-}
-
-.home-content h1 {
+header h1 {
     font-size: 48px;
-    margin-bottom: 10px;
 }
 
-.home-content h1 span {
-    color: #FFCC00;
-}
-
-.home-content h3 {
+header h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.home-content .btn {
+header img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+header .btn {
+    display: inline-block;
     padding: 10px 20px;
-    margin-right: 10px;
+    margin: 10px;
     background-color: #FFCC00;
     color: #000;
     border: none;
     cursor: pointer;
-}
-
-.home-content .btn:hover {
-    background-color: #e6b800;
-}
-
-.image img {
-    max-width: 400px;
-    border-radius: 10px;
 }
 
 /* About Section Styles */
 #about {
-    padding: 100px 0;
+    padding: 100px 20px;
     background-color: #111;
 }
 
-#about h2 {
-    text-align: center;
+#about ul {
+    margin-top: 20px;
 }
 
-#about .info {
-    max-width: 600px;
-    margin: 20px auto;
-}
-
-#about .info p {
-    font-size: 18px;
-}
-
-#about .btn {
-    display: block;
-    width: 200px;
-    margin: 20px auto;
-    padding: 10px;
-    text-align: center;
-    background-color: #FFCC00;
-    color: #000;
-    border: none;
-    cursor: pointer;
+#about li {
+    margin-bottom: 10px;
 }
 
 /* Skills Section Styles */
 #skills {
-    padding: 100px 0;
+    padding: 100px 20px;
     background-color: #000;
 }
 
-#skills h2 {
+#skills ul {
+    margin-top: 20px;
     text-align: center;
 }
 
-.skill {
-    margin-bottom: 40px;
-}
-
-.skill h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.progress-bar {
-    background-color: #333;
-    border-radius: 5px;
-    height: 10px;
-}
-
-.progress {
-    height: 100%;
-    background-color: #FFCC00;
-    border-radius: 5px;
-}
-
-.python { width: 90%; }
-.sql { width: 80%; }
-.react { width: 75%; }
-
-/* Projects Section Styles */
-#projects {
-    padding: 100px 0;
-    background-color: #111;
-}
-
-#projects h2 {
-    text-align: center;
-}
-
-.project {
-    margin-bottom: 40px;
-}
-
-.project h3 {
-    font-size: 24px;
-}
-
-.project p {
+#skills li {
+    margin-bottom: 20px;
     font-size: 18px;
 }
 
-.project .btn {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #FFCC00;
-    color: #000;
-    border: none;
-    cursor: pointer;
+/* Projects Section Styles */
+#projects {
+    padding: 100px 20px;
+    background-color: #111;
 }
 
 /* Contact Section Styles */
 #contact {
-    padding: 100px 0;
+    padding: 100px 20px;
     background-color: #000;
-}
-
-#contact h2 {
     text-align: center;
 }
 

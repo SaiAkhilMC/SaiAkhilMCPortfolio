@@ -1,6 +1,6 @@
 # Sai Akhil M C - Data Analyst Portfolio
 
-Welcome to my GitHub portfolio! I am Sai Akhil M C, a data-driven Data Analyst with over 2 years of experience in data analytics and automation. My portfolio showcases a variety of projects that highlight my skills in data analysis, machine learning, data visualization, and more.
+Welcome to my GitHub portfolio! I am Sai Akhil M C, a data-driven Data Analyst with over 2 years of academic experience in data analytics and automation. My portfolio showcases a variety of projects that highlight my skills in data analysis, machine learning, data visualization, and more.
 
 ## Summary
 
